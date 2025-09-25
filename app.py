@@ -10,8 +10,7 @@ Original file is located at
 import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt 
-from feature_extractor
-import extract_features_from_csv
+from feature_extractor import extract_features_from_csv
 from model_prediction import load_model_and_predict
 import os
 
